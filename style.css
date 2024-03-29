@@ -1,0 +1,177 @@
+*{
+  margin: 0px;
+  padding: 0px;
+ 
+}
+
+#main{
+  background-color: #DFF5FF;
+  width:100%;
+  height: 730px;
+}
+
+h1{
+  text-align: center;
+  position: relative;
+  top: 236px;
+  left: 163px;
+  font-size: 61px;
+  font-family: Nunito, sans-serif;
+  display: inline-flex;
+  gap: 44px;
+}
+
+
+
+.container{
+  background-color: #EAE9E9;
+  height: 296px;
+  width: 454px;
+  position: relative;
+  left: 355px;
+  top: -109px;
+  border-radius: 9%;
+  box-shadow: 10px 10px black;
+  width: 400px;
+  margin: 100px auto;
+  background: linear-gradient(to bottom right, #C7FFD8, #98DED9, #161D6F);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+  img{
+    height: 50px;
+    width: 55px;
+    top: 174px;
+    position: relative;
+    left: 135px;
+  }
+
+.emoji{
+  color:#222831;
+  text-decoration: none;
+  margin: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
+  padding: 0px;
+  font-size: 27px;
+  position: relative;
+  margin-left: 297px;
+  margin-top: -21px;
+  top: 270px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-group input[type="email"],
+.input-group input[type="password"] {
+    width: 94%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.input-group button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.input-group button:hover {
+    background-color: #0056b3;
+}
+
+.bottom-text {
+  text-align: center;
+  top: -392px;
+  position: relative;
+  left: 448px;
+}
+
+
+.bottom-text a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.bottom-text a:hover {
+    text-decoration: underline;
+    position: relative;
+    top:44px;
+
+}
+
+#signlater {
+  position: relative;
+  top: 397px;
+  left: -460px;
+  font-size: 16px;
+  font-family: arial;
+}
+
+@media (min-width:50px) and (max-width:900px)
+{
+  @media (max-width: 900px) {
+    body {
+      max-height: 680px; /* Set maximum height for body */
+      overflow: hidden; /* Prevent scrolling beyond 680px height */
+      overflow-x: hidden;
+    }
+  
+    #main {
+      width: 100%;
+      height: 680px; /* Set height to 100% */
+      max-height: 680px; /* Set maximum height for the container */
+      overflow-x: hidden; /* Enable horizontal scrolling if necessary */
+      overflow-y: auto; /* Enable vertical scrolling if necessary */
+    }
+  }
+  
+  h1{
+    position: relative;
+    top: 68px;
+    left: 94px;
+    font-size: 22px;
+  }
+  img{
+    width: 46px;
+    top: 16px;
+    position: relative;
+    left: 43px;
+  }
+  .container{
+    height: 311px;
+    width: 434px;
+    position: relative;
+    left: 6px;
+    top: -58px;
+    width: 257px;
+  }
+  .emoji{
+    font-size: 9px;
+    position: relative;
+    margin-left: 150px;
+    margin-top: -21px;
+    top: 446px;
+  }
+
+}
